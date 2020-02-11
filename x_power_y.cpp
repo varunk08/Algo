@@ -30,6 +30,6 @@ int main()
   cout << "Calculates x power y (x^y)." << endl;
   double x = 5.0;
   int y = 3;
-  cout << x << "^" << y << " = " << Power(x, y) << endl;
+  cout << x << "^ " << y << " = " << Power(x, y) << endl;
   return 0;
 }
