@@ -25,7 +25,7 @@ bool IsPalindrome(int x) {
 }
 int main()
 {
-  int x = 1234321;
+  int x = 1000021;
   cout << x << ": " << IsPalindrome(x) << endl;
   return 0;
 }
