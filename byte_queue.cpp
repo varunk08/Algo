@@ -189,7 +189,7 @@ unsigned char dequeue_byte(queue_handle block) {
                     // pDst is techically at the -1 index for the child block.
                     i    = -1;
                 }
-            }            
+            }
         }
     }
 
@@ -207,7 +207,7 @@ int main() {
     }
     destroy_queue(t0);
 
-    
+
     for (int i = 0; i < 10; i++) {
         create_queue();
         enqueue_byte(i, 'a');
